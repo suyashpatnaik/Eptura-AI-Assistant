@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.dark-mode {
+  background: #18181b !important;
+  color: #f3f4f6 !important;
+}
+
+.dark-mode * {
+  color: #ffe066 !important; /* A nice yellow */
+}
+
+.dark-mode .bg-white {
+  background: #27272a !important;
+}
+
+.dark-mode .text-gray-900 {
+  color: #f3f4f6 !important;
+}
+
+.dark-mode textarea {
+  background: #23232b !important;
+  color: #ffe066 !important;
+  border-color: #ffe066 !important;
+}
+
+.dark-mode textarea::placeholder {
+  color: #ffe06699 !important;
+}
+
+/* Add more overrides as needed */
